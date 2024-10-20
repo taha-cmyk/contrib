@@ -3,8 +3,8 @@
 This guide will help you create markdown content for news articles, projects, and events using our custom templates.
 
 ## Table of Contents
-1. [Simplified Date Format](#simplified-date-format)
-2. [News Articles](#news-articles)
+1. [Date Format](#simplified-date-format)
+2. [News and Posts](#news-articles)
 3. [Projects](#projects)
 4. [Events](#events)
 
@@ -12,7 +12,6 @@ This guide will help you create markdown content for news articles, projects, an
 
 To make dates you can use this format: `YYYY-MM-DD`. For example, October 20, 2024, would be written as `2024-10-20`.
 
-If you need to specify a time, you can add it after the date like this: `YYYY-MM-DD HH:MM`. For example, `2024-10-20 14:30` for 2:30 PM on October 20, 2024.
 
 ## News and Posts
 
@@ -25,6 +24,7 @@ date = "YYYY-MM-DD"
 draft = false
 description = "A brief description of your news article."
 tags = ["Tag1", "Tag2", "Tag3"]
+authors = ["", "", ""]
 +++
 
 Your post content goes here.
@@ -39,6 +39,8 @@ date = "2024-10-19"
 draft = false
 description = "Oracle announces its official opening in Morocco, expanding its footprint in North Africa. This move is set to boost the tech ecosystem in the region and provide new opportunities for local talent."
 tags = ["Oracle", "Morocco", "Tech News", "2024", "North Africa"]
+authors = ["Ahmad", "Amir"]
+
 +++
 
 Full article content goes here...
@@ -57,6 +59,8 @@ description = "A brief description of your project."
 maintainers = ["Maintainer 1", "Maintainer 2"]
 project_link = "https://github.com/yourusername/your-project"
 tags = ["Tag1", "Tag2", "Tag3"]
+authors = ["", "", ""]
+
 +++
 
 Your project details go here.
@@ -73,6 +77,8 @@ description = "An innovative cloud provider project tailored to meet the unique 
 maintainers = ["Alice Smith", "Bob Johnson"]
 project_link = "https://github.com/yourusername/my-awesome-project"
 tags = ["Cloud", "Morocco", "Developers", "Startups", "Tech"]
+authors = ["Ahmad", "Amir"]
+
 +++
 
 Detailed project information goes here...
@@ -85,7 +91,7 @@ For event pages, use this template:
 ```markdown
 +++
 title = "Your Event Title"
-date = "YYYY-MM-DD HH:MM"
+date = "YYYY-MM-DD"
 draft = false
 description = "A brief description of your event."
 event_date = "Month DD, YYYY"
@@ -94,6 +100,8 @@ location = "Event Location"
 organizer = "Event Organizer"
 registration_link = "https://example.com/register"
 tags = ["Tag1", "Tag2", "Tag3"]
+authors = ["", ""]
+
 +++
 
 Your event details go here.
@@ -104,7 +112,7 @@ Your event details go here.
 ```markdown
 +++
 title = "Tech Innovators Meetup"
-date = "2024-10-20 10:00"
+date = "2024-10-20 "
 draft = false
 description = "Join us for an exciting meetup of tech innovators in Casablanca. Network with like-minded professionals and learn about the latest trends in technology."
 event_date = "November 15, 2024"
@@ -113,6 +121,8 @@ location = "TechHub Casablanca, 123 Innovation Street, Casablanca"
 organizer = "Morocco Tech Association"
 registration_link = "https://example.com/register-tech-meetup"
 tags = ["Meetup", "Technology", "Networking", "Casablanca", "2024"]
+authors = ["Ahmad", "Amir"]
+
 +++
 
 Detailed event information, agenda, and speaker bios go here...
