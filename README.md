@@ -10,9 +10,7 @@ This guide will help you create markdown content for news articles, projects, an
 
 ## Simplified Date Format
 
-To make date entry easier, you can now use a simple format: `YYYY-MM-DD`. For example, October 20, 2024, would be written as `2024-10-20`.
-
-For the `date` field in the content headers, you can use this simple format, and our system will automatically convert it to the required full date-time format.
+To make dates you can use this format: `YYYY-MM-DD`. For example, October 20, 2024, would be written as `2024-10-20`.
 
 If you need to specify a time, you can add it after the date like this: `YYYY-MM-DD HH:MM`. For example, `2024-10-20 14:30` for 2:30 PM on October 20, 2024.
 
