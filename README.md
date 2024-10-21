@@ -128,6 +128,4 @@ authors = ["Ahmad", "Amir"]
 Detailed event information, agenda, and speaker bios go here...
 ```
 
-Remember to replace the placeholder text and values with your actual content. The `date` field can now be in the simple `YYYY-MM-DD` format, or `YYYY-MM-DD HH:MM` if you need to specify a time.
-
 For events, make sure to fill out all the relevant fields like `event_date`, `event_time`, `location`, `organizer`, and `registration_link` to provide comprehensive information to  visitors.
